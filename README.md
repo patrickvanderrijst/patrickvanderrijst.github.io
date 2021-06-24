@@ -1,1 +1,0 @@
-# patrickvanderrijst.github.io
