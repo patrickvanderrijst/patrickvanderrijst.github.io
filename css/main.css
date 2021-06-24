@@ -251,6 +251,10 @@
   width: 50%;
 }
 
+.text-center {
+  text-align: center;
+}
+
 /*! nouislider - 9.1.0 - 2016-12-10 16:00:32 */
 /* Functional styling;
  * These styles are required for noUiSlider to function.
