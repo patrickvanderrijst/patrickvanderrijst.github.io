@@ -2617,6 +2617,9 @@ body {
 .bg-success {
   background-color: #18ce0f !important; }
 
+.bg-skills {
+  background-color: #378C3F !important; }
+
 .bg-danger {
   background-color: #FF3636 !important; }
 
@@ -5297,3 +5300,7 @@ a.credit {
 /* Common Style */
 .section {
   padding-bottom: 0; }
+
+.me-2 {
+  margin-right: 1rem!important;
+}
