@@ -19,6 +19,18 @@
       }
     </style>
   </noscript>
+  <script style="javascript">
+    function getAge(dateString) {
+      var today = new Date();
+      var birthDate = new Date(dateString);
+      var age = today.getFullYear() - birthDate.getFullYear();
+      var m = today.getMonth() - birthDate.getMonth();
+      if (m < 0 || (m === 0 && today.getDate() < birthDate.getDate())) {
+        age--;
+      }
+      return age;
+    }
+</script>
 </head>
 
 <body id="top">
@@ -95,7 +107,7 @@
                     <div class="h4 mt-0 title">Informatie</div>
                     <div class="row">
                       <div class="col-sm-4"><strong class="text-uppercase">Age:</strong></div>
-                      <div class="col-sm-8">33</div>
+                      <div class="col-sm-8"><script>document.write(getAge("1987/10/30"));</script></div>
                     </div>
                     <div class="row mt-3">
                       <div class="col-sm-4"><strong class="text-uppercase">Email:</strong></div>
