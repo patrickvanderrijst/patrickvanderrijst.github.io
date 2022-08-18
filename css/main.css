@@ -3610,9 +3610,9 @@ Created using IcoMoon - icomoon.io
   text-align: center;
   margin-top: 30px; }
 
-.profile-page .description,
+/* .profile-page .description,
 .profile-page .category {
-  text-align: center; }
+  text-align: center; } */
 
 .profile-page h5.description {
   max-width: 700px;
@@ -5308,4 +5308,10 @@ a.credit {
 
 .certificate {
   text-align: center;
+}
+
+.experience-logo {
+  filter: gray;
+  filter: grayscale(1);
+  -webkit-filter: grayscale(1);
 }
