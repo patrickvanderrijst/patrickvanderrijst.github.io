@@ -5314,4 +5314,5 @@ a.credit {
   filter: gray;
   filter: grayscale(1);
   -webkit-filter: grayscale(1);
+  padding-right: 15px;
 }
