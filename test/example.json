@@ -1,0 +1,29 @@
+{
+	"sites": [{
+			"name": "nl-ams-fake-zuidas",
+			"contact": "pietertje;jan",
+			"debsystem": "glovia",
+			"debnr": "1234567",
+			"locationID": "verte",
+			"SLA": {
+				"hw": false,
+				"swResponse": "4h",
+				"swIncluded": "PIDaaS"
+			},
+			"contractType": "autorenew"
+		},
+		{
+			"name": "nl-ehv-wps-gebouw",
+			"contact": "Eric Thijs;Walter Peeraer",
+			"debsystem": "glovia",
+			"debnr": "23444",
+			"locationID": "verte",
+			"SLA": {
+				"hw": true,
+				"swResponse": "2h",
+				"swIncluded": "PIDaaS",
+				"contractType": "autorenew"
+			}
+		}
+	]
+}
